@@ -10,6 +10,10 @@ def books(request):
     return HttpResponse("成功")
 
 
+def log(request):
+    return HttpResponse('登录')
+
+
 
 
 
